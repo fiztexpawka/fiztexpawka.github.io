@@ -10,7 +10,7 @@ setParams({
         /*
             Default state of the "show edges" button
         */
-    useLens : false,
+    useLens : true,
         /*
             Default state of the "use lens" button
         */
@@ -30,8 +30,8 @@ setParams({
         */
     minEdgeWidth : 1,
     maxEdgeWidth : 50,
-    textDisplayThreshold: 9,
-    nodeSizeFactor : 1,
+    textDisplayThreshold: 2,
+    nodeSizeFactor : 2,
         /*
             Change this parameter for smaller or larger nodes
            this setting can't be changed from the User Interface
